@@ -27,7 +27,7 @@ function App() {
             sx={{ mt: 20, gap: 2, flex: 1, mb: 3, ml: 5 }}
           >
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(
-              (item, index) => {
+              (index) => {
                 return <BasicCard key={index} />;
               }
             )}
