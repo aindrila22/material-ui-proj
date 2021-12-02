@@ -171,7 +171,7 @@ export default function PrimarySearchAppBar() {
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            LOGO
+            company Name
           </Typography>
 
           <Box sx={{ flexGrow: 1 }} />
