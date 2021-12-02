@@ -9,14 +9,13 @@ const styles = {
     height: "20rem",
     backgroundColor: "#2b76d2",
     display: "flex",
-
     backgroundRepeat: "no-repeat",
   },
 };
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" style={{ backgroundColor: "gray" }}>
       <Nav />
       <Paper style={styles.paperContainer}>
         <Container sx={{ display: "flex" }}>
